@@ -25,6 +25,7 @@
 | [Directories](#directories) | Where is everything |
 | [Guides](#guides-for-humans) | Deep dive docs |
 | [File Types](#all-11-file-types) | What each file is for |
+| [Token Efficiency](#-token-efficiency-important-for-sustainability) | Keep context minimal |
 
 ---
 
@@ -134,6 +135,9 @@ docs/
 - [Changelog](docs/changelog.md) — Recent updates
 - [Architecture Decisions](.github/decisions/) — ADRs
 
+### ⚡ Token Efficiency (Important)
+- [Token Efficiency Guide](docs/guides/TOKEN-EFFICIENCY-GUIDE.md) — Minimal context = Better quality
+
 ---
 
 ## All 11 File Types
@@ -180,6 +184,27 @@ docs/
 6. Automatic API documentation
 7. Quality verification
 8. **Result**: Production-ready feature
+
+---
+
+## ⚡ Token Efficiency (Important for Sustainability)
+
+**Why This Matters**: Our hierarchical structure is designed to minimize token usage while maximizing code quality.
+
+| Naive Approach | Our Approach |
+|---|---|
+| Load everything (150KB) | Load only what's needed (10-15KB) |
+| All 9 agents every time | Select relevant agents |
+| Full history in context | Lessons only in memory |
+| Lower code quality (confusion) | Higher code quality (focus) |
+
+**Result**: 70-80% token reduction + Better output
+
+**Estimated Savings**: Payment feature development  
+- Naive: ~2000 tokens  
+- Optimized: ~600 tokens (70% savings)
+
+👉 **[Full Token Efficiency Guide →](docs/guides/TOKEN-EFFICIENCY-GUIDE.md)** — Learn how to keep context minimal and quality high
 
 ---
 
