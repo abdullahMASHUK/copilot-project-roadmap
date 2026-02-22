@@ -10,7 +10,19 @@ A sophisticated multi-specialist agent system for intelligent feature developmen
 2. **[💬 Communication Guide](docs/guides/COMMUNICATION-GUIDE.md)** — How to communicate with Copilot agents using SRS, ER diagrams, specs, and more
 3. **[🔄 Communication Workflows](docs/guides/COMMUNICATION-WORKFLOW.md)** — Visual diagrams and workflow examples for different scenarios
 
-## 🤖 Agent System Overview
+## � The Exchange: Human Input ↔ Agent Delivery
+
+| **Human Provides** | **Agent Delivers** |
+|---|---|
+| Clear requirements (SRS, spec, or description) | Complete feature with code, tests, docs |
+| Context & constraints | Production-ready implementation |
+| Domain knowledge & decisions | Security audit & compliance check |
+| Approval at each phase | Quality assurance & validation |
+| Feedback on deliverables | Fully documented API & guides |
+
+**Simple Flow**: You write what you need → Agents build it end-to-end → You review & approve → Ship to production
+
+## �🤖 Agent System Overview
 
 ### 9 Specialized Agents Working Together
 
@@ -57,18 +69,6 @@ Documentation Specialist (API docs)
 - **[Agent Selection Guide](.github/agents/roles/AGENT-SELECTION-GUIDE.md)** — How to choose the right agent(s) for your feature
 - **[Handoff Protocol](.github/agents/roles/HANDOFF-PROTOCOL.md)** — How agents work together sequentially
 - **[System README](.github/agents/roles/README.md)** — Complete guide to the role-based agent system
-
-## 🤝 The Exchange: Human Input ↔ Agent Delivery
-
-| **Human Provides** | **Agent Delivers** |
-|---|---|
-| Clear requirements (SRS, spec, or description) | Complete feature with code, tests, docs |
-| Context & constraints | Production-ready implementation |
-| Domain knowledge & decisions | Security audit & compliance check |
-| Approval at each phase | Quality assurance & validation |
-| Feedback on deliverables | Fully documented API & guides |
-
-**Simple Flow**: You write what you need → Agents build it end-to-end → You review & approve → Ship to production
 
 ## 📁 Project Structure
 
