@@ -58,6 +58,18 @@ Documentation Specialist (API docs)
 - **[Handoff Protocol](.github/agents/roles/HANDOFF-PROTOCOL.md)** — How agents work together sequentially
 - **[System README](.github/agents/roles/README.md)** — Complete guide to the role-based agent system
 
+## 🤝 The Exchange: Human Input ↔ Agent Delivery
+
+| **Human Provides** | **Agent Delivers** |
+|---|---|
+| Clear requirements (SRS, spec, or description) | Complete feature with code, tests, docs |
+| Context & constraints | Production-ready implementation |
+| Domain knowledge & decisions | Security audit & compliance check |
+| Approval at each phase | Quality assurance & validation |
+| Feedback on deliverables | Fully documented API & guides |
+
+**Simple Flow**: You write what you need → Agents build it end-to-end → You review & approve → Ship to production
+
 ## 📁 Project Structure
 
 ```
